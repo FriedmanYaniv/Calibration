@@ -4,7 +4,7 @@
 fileID = fopen(['','Data' ,'.raw']);
 raw_data=fread(fileID,'uint16');
 fclose(fileID);
-I = reshape(raw_data ,  640, 480)';
+I = reshape(raw_data ,  640, 480)';fghgfhgfh
 clear raw_data;
 gray = mat2gray(I) ;  
 BW = im2bw(gray, 0.3);
