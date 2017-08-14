@@ -8,7 +8,7 @@ I = reshape(raw_data ,  640, 480)';
 clear raw_data;
 gray = mat2gray(I) ;  
 BW = im2bw(gray, 0.3);
-
+% recommit
 properties = 'Centroid'	;
 stats = regionprops(BW,properties) ; 
 stats.Centroid;
